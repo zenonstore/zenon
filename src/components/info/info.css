@@ -4,6 +4,10 @@
   border: 2px solid var(--color-primary1);
 }
 
+.centerr {
+  width: 26rem;
+}
+
 .product-info {
   margin-top: 15px;
   max-width: 92%;
