@@ -10,7 +10,7 @@
 
 .product-info {
   margin-top: 15px;
-  max-width: 27rem;
+  max-width: 96%;
   border-radius: 15px;
   border: 2px solid var(--color-primary1);
 }
