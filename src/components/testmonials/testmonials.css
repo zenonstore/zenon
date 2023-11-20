@@ -1,0 +1,64 @@
+.rev-container {
+  text-align: center;
+  width: 80%;
+  position: relative;
+  max-width: 27rem;
+}
+
+.rev-card {
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  height: fit-content;
+}
+
+.text {
+  padding-bottom: 10px;
+}
+
+.rev-name {
+  font-weight: 500;
+}
+
+.rev-loc {
+  font-size: 14px;
+  color: var(--color-text-light);
+}
+
+.img-container {
+  border-radius: 15px 15px 0 0;
+  height: 260px;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.rev-image {
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+
+.rate {
+  color: var(--color-primary2);
+}
+
+.custom-slick-prev {
+  cursor: pointer;
+  color: var(--color-primary1);
+  position: absolute;
+  bottom: 50%;
+  z-index: 2;
+  left: -25px;
+  font-size: 20px;
+}
+
+.custom-slick-next {
+  cursor: pointer;
+  color: var(--color-primary1);
+  position: absolute;
+  bottom: 50%;
+  z-index: 2;
+  right: -25px;
+  font-size: 20px;
+}

@@ -1,0 +1,104 @@
+.product-img {
+  max-width: 92%;
+  border-radius: 50%;
+  border: 2px solid var(--color-primary1);
+}
+
+.product-info {
+  margin-top: 15px;
+  max-width: 92%;
+  border-radius: 15px;
+  border: 2px solid var(--color-primary1);
+}
+
+.nums-description {
+  width: 88%;
+  text-align: right;
+}
+
+.m-des {
+  width: 90%;
+  text-align: right;
+  margin-top: 10px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  padding: 0 10px;
+}
+
+.nums-heading {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: var(--color-primary1);
+}
+
+.nums {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.num-circle {
+  background-color: var(--color-primary1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.num-circle-active {
+  background-color: var(--color-primary2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+/* ==========Taps============= */
+.item {
+  background-color: white;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.head,
+.head-active {
+  background: var(--color-primary1-light);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.31);
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.head:hover,
+.head-active {
+  outline: 3px solid var(--color-primary1);
+  scale: 1.02;
+  transition: ease-in-out;
+}
+
+.des-tap-img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.tap-description {
+  padding: 10px 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}

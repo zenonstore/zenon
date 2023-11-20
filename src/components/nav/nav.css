@@ -1,0 +1,44 @@
+nav {
+  background: rgba(90, 90, 90, 0.153);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.31);
+  width: 85%;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 100;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 0.8rem;
+  border-radius: 3rem;
+}
+
+nav a {
+  background: transparent;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--color-primary1);
+  transition: var(--transition);
+}
+
+nav a:hover {
+  background: var(--color-primary1-hover);
+  color: white;
+  scale: 1.1;
+}
+
+nav a.active {
+  background: var(--color-primary1);
+  color: white;
+}

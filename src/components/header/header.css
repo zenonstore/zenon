@@ -1,0 +1,48 @@
+header {
+  height: max-content;
+  margin-bottom: 5rem;
+}
+
+.header--container {
+  max-width: 27rem;
+  text-align: center;
+  height: max-content;
+  position: relative;
+  margin-top: 25px;
+  margin-top: 7rem;
+}
+
+.logo {
+  height: 50px;
+}
+
+.main-heading {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.slogan {
+  margin-top: 5px;
+  color: var(--color-primary2);
+  margin-top: 20px;
+}
+
+/* ============== CTA ================ */
+.cta {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+/* ============== HERO ================ */
+.hero {
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.hero img {
+  border-radius: 50% 50% 0 0;
+  max-width: 92%;
+  border: 3px solid var(--color-primary1);
+}
