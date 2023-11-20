@@ -10,7 +10,7 @@
 
 .product-info {
   margin-top: 15px;
-  max-width: 92%;
+  max-width: 27rem;
   border-radius: 15px;
   border: 2px solid var(--color-primary1);
 }
@@ -71,7 +71,6 @@
 
 /* ==========Taps============= */
 .item {
-  max-width: 27rem;
   background-color: white;
   padding: 5px;
   border-radius: 50px;
