@@ -8,7 +8,7 @@ import Testmonials from "./components/testmonials/Testmonials";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [activeLink, setActiveLink] = useState("HeaderId");
+  const [activeLink, setActiveLink] = useState("headerId");
 
   const handleScroll = () => {
     const headerSection = document.getElementById("headerId");
