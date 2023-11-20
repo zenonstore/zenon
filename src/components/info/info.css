@@ -1,6 +1,6 @@
 .product-img {
   max-width: 92%;
-  border-radius: 50%;
+  border-radius: 20px;
   border: 2px solid var(--color-primary1);
 }
 
