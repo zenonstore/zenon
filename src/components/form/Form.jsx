@@ -4,7 +4,7 @@ import "./form.css";
 import offer from "../../assets/offer.png";
 
 const Form = () => {
-  const [price, setPrice] = useState(199);
+  const [price, setPrice] = useState(219);
   const [ordered, setOrdered] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const serviceId = "service_3fjghje";
@@ -30,9 +30,9 @@ const Form = () => {
   };
 
   function handelPrice(val) {
-    val === "1 item price: 199" && setPrice(199);
-    val === "2 items price: 358" && setPrice(179);
-    val === "3 items price: 507" && setPrice(169);
+    val === "1 item price: 219" && setPrice(219);
+    val === "2 items price: 396" && setPrice(198);
+    val === "3 items price: 561" && setPrice(187);
   }
 
   return (
@@ -48,25 +48,25 @@ const Form = () => {
         <div className="offer-holder">
           <label>اختر العرض المناسب</label>
           <select name="offer" onChange={(e) => handelPrice(e.target.value)}>
-            <option value="1 item price: 199">قطعة واحدة</option>
-            <option value="2 items price: 358">
+            <option value="1 item price: 219">قطعة واحدة</option>
+            <option value="2 items price: 396">
               (عرض الأصدقاء) قطعتين + خصم 10%
             </option>
-            <option value="3 items price: 507">
+            <option value="3 items price: 561">
               (عرض الأصدقاء) ثلاث قطع + خصم 15%
             </option>
           </select>
           <p className="price">
             سعر القطعة: <span>{price} ريال</span> بدلا من
-            <span className="old-price"> 270</span>
+            <span className="old-price"> 319</span>
           </p>
           <p className="price">
             السعر الكلي:{" "}
             <span>
-              {price === 199
+              {price === 219
                 ? "199 ريال"
-                : price === 179 && `${price * 2} ريال`}
-              {price === 169 && `${price * 3} ريال`}
+                : price === 198 && `${price * 2} ريال`}
+              {price === 187 && `${price * 3} ريال`}
             </span>{" "}
             <span className="free-shipping">+ شحن مجاني</span>
           </p>
