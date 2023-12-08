@@ -37,6 +37,12 @@ const reviews = [
     text: "💓ممتاز وصلني خلال يومين من الطلب شكراً لكم",
     id: "https://reviews.am-usercontent.com/images/u/o/058cc6eb57fdc2e7c6b975376f821c8fad6daa91/ali-images/b6082db423dd42f0a2e60866e4c81f27.jpeg",
   },
+  {
+    name: "تسنيم فهد",
+    location: "الرياض، السعودية",
+    text: "منتج ممتاز واكتر شيء عجبني رأس الكيرلر. يلف الشعر بشكل تلقائي🥰",
+    id: "https://ae01.alicdn.com/kf/Ae4d4271748124faea383bb94a26de683d.jpg",
+  },
 ];
 
 const Testmonials = () => {
